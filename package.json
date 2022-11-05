@@ -1,0 +1,42 @@
+{
+  "name": "node-extention-pack",
+  "displayName": "Node Extension Pack",
+  "description": "VS Code extensions for Javascript/Typescript development in Node (maintained :wink)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "publisher": "ismailmmd",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "publisher.extensionName"
+  ],
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "typescript"
+],
+"icon": "node.png",
+"repository": {
+  "url": "https://github.com/ismailmmd/node-extention-pack"
+},
+"homepage": "https://github.com/ismailmmd/node-extention-pack",
+"bugs": {
+  "url": "https://github.com/ismailmmd/node-extention-pack/issues"
+},
+"galleryBanner": {
+  "color": "#333333",
+  "theme": "dark"
+},
+"extensionDependencies": [
+  "dbaeumer.vscode-eslint",
+  "xabikos.javascriptsnippets",
+  "jasonnutter.search-node-modules",
+  "christian-kohler.npm-intellisense",
+  "christian-kohler.path-intellisense",
+  "prettier-vscode"
+]
+}
